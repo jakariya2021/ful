@@ -1,0 +1,225 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+a{
+
+	text-decoration: none;
+}
+
+
+
+.header{
+	background-color:black;
+text-align: center;
+padding: 20px
+}
+
+.header ul li{
+	display: inline-block;
+   margin-right: 25px
+}
+
+.header ul li a{
+	color:cornsilk;
+	font-size: 20px; 
+}
+
+.newsletter{
+	background-color:#f5f5f5;
+	text-align: center;
+	padding: 100px;
+}
+
+
+.newsletter h1{
+	color: #2f323a;
+	font-size:52px;
+}
+
+.newsletter p{
+	color: rgb(78,78,78);
+	margin-top: 20px;
+	font-size: 17px;
+}
+
+.input-1{
+	background-color:transparent;
+	padding:15px;
+	width: 30%;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+.input-2{
+
+	background-color:transparent;
+	padding:15px;
+	width: 30%;
+	margin-top: 30px;
+}
+
+.button{
+	background-color:black;
+	color: white;
+	padding: 15px;
+	width: 10%;
+	margin-left:10px;
+	border: none;
+	border-radius: 50px;
+	cursor:pointer;
+}
+.button:hover{
+	background-color:violet;
+	color :red;
+}
+
+.lets{
+	padding: 150px;
+}
+
+
+.lets h1{
+	color: #2f323a;
+	font-size: 52px;
+
+}
+
+.lets p{
+	padding: 20px;
+}
+
+
+.name{
+	background-color:transparent;
+	padding:10px;
+	width: 30%;
+
+margin-top: 30px;
+
+	margin-left: 10px;
+}
+
+.email{
+		background-color:transparent;
+	padding:10px;
+	width: 30%;
+	
+margin-top: 30px;
+	margin-left: 10px;
+
+}
+
+.subject{
+		background-color:transparent;
+	padding:10px;
+	width: 30%;
+	
+margin-top: 30px;
+	margin-left: 10px;
+}
+
+.phone{
+		background-color:transparent;
+	padding:10px;
+	width: 30%;
+	
+margin-top: 30px;
+	margin-left: 10px;
+
+}
+.message from textarea {
+	background-color: #f5f5f5;
+	padding: 180px;
+	
+	margin-top: 20px;
+}
+
+.footer{
+	background-color:black;
+padding: 100px 0px;
+width: 100%;
+/*margin: left;*/
+margin-top: 20px;
+}
+.col h5{
+	
+	color:  white;
+	margin-bottom: 20px;
+}
+
+
+.col .menu ul li a{
+	color:#CECECE;
+     list-style: none;
+	line-height: 24px;
+}
+
+
+.footer-menu{
+	display: flex;
+	justify-content: space-around;
+
+}
+hr{
+	background-color: #cecece;
+height: 1px;
+margin: 40px 0;
+
+}
+
+.footer-botton ul li{
+	list-style: none;
+	display: inline-block;
+	border-right: 2px solid white;
+	padding-right: 10px;
+	margin-right: 10px;
+	}
+
+.footer-botton ul li a{
+	color:#CECECE;
+   font-size: 16px;
+	line-height: 24px;
+}
+.lest{
+	border-right:  0px!important;
+}
+.footer-botton p{
+color:#CECECE;
+   font-size: 16px;
+   margin: 20px 0;	
+}
+
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.social-icon ul li a i{
+	color: white;
+	height: 40px;
+	width: 40px;
+	background: tomato;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100px;
+	border: 2px solid black;
+	transition:0.5s ease-in-out; 
+
+}
+
+.social-icon ul li a i:hover{
+	border: 2px solid white;
+	transform: scale(1.3);
+	transition:0.5s ease-in-out; 
+
+
+}
+
+
+
+
+
+
+
